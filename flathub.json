@@ -1,5 +1,4 @@
 {
-    "end-of-life": "Application has been renamed to org.gnome.GHex",
-    "end-of-life-rebase": "org.gnome.GHex",
+    "end-of-life": "Application will been renamed to org.gnome.GHex",
     "skip-appstream-check": true
 }

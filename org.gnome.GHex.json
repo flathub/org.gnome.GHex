@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.GHex",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "ghex",
     "finish-args": [
@@ -19,8 +19,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/ghex.git",
-                "tag": "3.18.4",
-                "commit": "228094e8d203ab62e49c33df2734fc9628c74775"
+                "tag": "3.41.1",
+                "commit": "2bd5cb649e40de5e3b197ce7666ee9bd14ae2c24"
             }]
         }
     ]

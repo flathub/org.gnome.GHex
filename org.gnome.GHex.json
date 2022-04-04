@@ -17,12 +17,18 @@
         {
             "name": "ghex",
             "buildsystem": "meson",
-            "sources": [{
-                "type": "git",
-                "url": "https://gitlab.gnome.org/GNOME/ghex.git",
-                "tag": "3.41.1",
-                "commit": "2bd5cb649e40de5e3b197ce7666ee9bd14ae2c24"
-            }]
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/ghex/3.41/ghex-3.41.1.tar.xz",
+                    "sha256": "8b79cf009eae5c47cad0ab53e2199c3a6fb2f3ab61877f359bed524770ee61f7",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "ghex",
+                        "stable-only": true
+                    }
+                }
+            ]
         }
     ]
 }

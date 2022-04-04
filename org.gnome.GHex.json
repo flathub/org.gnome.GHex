@@ -5,11 +5,13 @@
     "sdk": "org.gnome.Sdk",
     "command": "ghex",
     "finish-args": [
-        "--filesystem=host",
         "--device=dri",
+        "--filesystem=host",
+        "--filesystem=xdg-run/gvfsd",
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--talk-name=org.gtk.vfs.*"
     ],
     "modules": [
         {

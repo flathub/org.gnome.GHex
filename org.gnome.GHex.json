@@ -6,22 +6,24 @@
     "command": "ghex",
     "finish-args": [
         "--device=dri",
-        "--filesystem=host",
-        "--filesystem=xdg-run/gvfsd",
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--talk-name=org.gtk.vfs.*"
+        "--talk-name=org.gtk.vfs",
+        "--talk-name=org.gtk.vfs.*",
+        "--filesystem=xdg-run/gvfsd",
+        "--filesystem=host"
     ],
     "modules": [
         {
             "name": "ghex",
             "buildsystem": "meson",
+            "config-opts" : [ "-Dbuildtype=release" ],
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/ghex.git",
-                "tag": "3.41.1",
-                "commit": "2bd5cb649e40de5e3b197ce7666ee9bd14ae2c24"
+                "tag": "42.0",
+                "commit": "c28eaa930ee7f88e56b003e81037dd9828ccc5b1"
             }]
         }
     ]

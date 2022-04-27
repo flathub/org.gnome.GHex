@@ -18,12 +18,14 @@
         {
             "name": "ghex",
             "buildsystem": "meson",
-            "config-opts" : [ "-Dbuildtype=release" ],
+            "config-opts": [
+                "-Dbuildtype=release"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/ghex/42/ghex-42.1.tar.xz",
-                    "sha256": "f10323d3c32fbd1a83154fbfd2a27eca3ee90d9c1b25235f1b15fede5fb113a3",
+                    "url": "https://download.gnome.org/sources/ghex/42/ghex-42.2.tar.xz",
+                    "sha256": "45de8e6b8a1f31de5a9910be18c07f09a328d87538df80403aec5af8817c9631",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "ghex",

@@ -13,6 +13,15 @@
         "--filesystem=xdg-run/gvfsd",
         "--filesystem=host"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/girepository-1.0",
+        "/lib/pkgconfig",
+        "/share/gir-1.0",
+        "/share/man",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "ghex",

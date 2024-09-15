@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.GHex",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "ghex",
     "finish-args": [
@@ -12,6 +12,15 @@
         "--talk-name=org.gtk.vfs.*",
         "--filesystem=xdg-run/gvfsd",
         "--filesystem=host"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/girepository-1.0",
+        "/lib/pkgconfig",
+        "/share/gir-1.0",
+        "/share/man",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {

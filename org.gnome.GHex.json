@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/ghex/46/ghex-46.2.tar.xz",
-                    "sha256": "a8f276a36397a70d20b862ff7c664243d9cf2891deb9be06d745a4f1ac661f31",
+                    "url": "https://download.gnome.org/sources/ghex/48/ghex-48.0.tar.xz",
+                    "sha256": "aa1d0ab5f74304aaa31987a182d421d63f19ce02465d7c642696e316123e30a8",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "ghex",
